@@ -1,8 +1,32 @@
-# React + Vite
+# Atlas Tic Tac Toe
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![screenshot](Screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Requirements
+
+- Create a two player tic-tac-toe game
+- Players take turns placing tokens on the board
+- Game end when a player has three in a row or all cells are filled
+
+## Design Mockup
+
+There is a static version of the app in the `mockup` folder. It is built with static HTML and CSS and can be viewed in any browser.
+
+### Local Development
+
+```bash
+npm install
+npm start
+```
+
+### Deploy to GH Pages
+
+Make sure you have created your own git repo with the name `atlas-tic-tac-toe` and pushed your code to it before trying to deploy.
+
+```bash
+npm run deploy
+```
+
+App will be avaiable at `https://<username>.github.io/<repo-name>`
