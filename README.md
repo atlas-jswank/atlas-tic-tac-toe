@@ -18,7 +18,7 @@ There is a static version of the app in the `mockup` folder. It is built with st
 
 ```bash
 npm install
-npm start
+npm dev
 ```
 
 ### Deploy to GH Pages
