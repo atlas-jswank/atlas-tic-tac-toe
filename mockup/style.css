@@ -250,17 +250,17 @@ button:hover {
   box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
 }
 
-.board-cell.filled {
+.board-cell.teal {
   background: var(--teal);
 }
-.board-cell.end {
+.board-cell.yellow {
   background: var(--yellow);
 }
-.board-cell.end > img {
+.board-cell.yellow > img {
   animation: shake 0.25s linear;
 }
 
-.board-cell.filled > img {
+.board-cell.teal > img {
   animation: shake 0.25s linear;
 }
 
