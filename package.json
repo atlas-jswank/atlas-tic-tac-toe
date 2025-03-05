@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/atlas-tic-tac-toe",
+    "build": "vite build",
+    "build:gh": "vite build --base=/atlas-tic-tac-toe",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "npx serve mockup",
     "deploy": "gh-pages -d dist",
